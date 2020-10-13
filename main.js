@@ -7,12 +7,18 @@ console.log (chilometri);
 var età = parseInt(prompt('inserisci qui la tua età'))
 console.log(età);
 
-if (età > ) {
+var minorenne = 18;
+var anziano = 65;
 
-}
-else if (età >= ) {
 
+var price = 10 * 4;
+
+if (età < minorenne) {
+// sconto del 20
 }
-else (età < ) {
+else if (età > anziano) {
+//sconto del 40
+}
+else {
 
 }
