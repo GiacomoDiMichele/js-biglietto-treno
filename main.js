@@ -8,17 +8,18 @@ var età = parseInt(prompt('inserisci qui la tua età'))
 console.log(età);
 
 var minorenne = 18;
+
 var anziano = 65;
 
+var price = 0.21 * 200;
 
-var price = 10 * 4;
 
 if (età < minorenne) {
-// sconto del 20
-}
-else if (età > anziano) {
-//sconto del 40
-}
-else {
+console.log('33,6€');
 
+} else if (età > anziano) {
+console.log('25,2€');
+
+} else {
+console.log('42');
 }
